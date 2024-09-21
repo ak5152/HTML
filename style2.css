@@ -1,0 +1,32 @@
+  #card{
+    height: 500px ;
+    width: 500px;
+    border : 6px solid black;
+    display: inline-block;
+    margin: 50px;
+    box-shadow: 4px 4px 40px red;
+    transition: all 0.5s ease-in 0.2s;
+    border-radius: 20px;
+  }
+  #inner{
+    padding-left: 50px;
+    background-color: pink;
+    
+  }
+  img{
+    height: 400px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
+  #card:hover{
+    box-shadow: 9px 9px 50px green;
+    background-color: blanchedalmond;
+  }
+  h3{
+    background-color: gold;
+  }
+  p{
+    background-color: cyan;
+  }
+  
+  
